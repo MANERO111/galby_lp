@@ -23,7 +23,7 @@ export async function sendEmail(formData: {
     // Send the email
     const info = await transporter.sendMail({
       from: `"Landing Page" <${process.env.SMTP_USER}>`, // sender address
-      to: "lpads@icosmetiquegroupe.ma", // recipient address
+      to: "akioudamjadfone2@gmail.com", // recipient address
       subject: `New Lead: ${formData.fullName}`,
       html: `
         <div style="font-family: sans-serif; padding: 20px; color: #333;">
